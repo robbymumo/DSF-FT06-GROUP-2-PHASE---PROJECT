@@ -19,13 +19,9 @@ The core problem that our project addresses is the accurate pricing of houses li
 
 1.3.1        Objectives
 
-Primary Objective: Develop a robust linear regression model to accurately predict house prices in King County, California, utilizing relevant variables from the dataset. Therefore our objectives are: 
-
-a). Develop a regression model with the highest possible accuracy to predict and determine house prices based on their features.
-
+a). Develop a multilinear regression model with the highest possible accuracy to predict and determine house prices based on their features.
 
 b). Identify Key Factors Influencing House Prices in King County, California, to provide valuable insights for precise pricing strategies.
-
 
 c). Analyze Model Performance using metrics such as mean squared error, R-squared values, and residual analysis to gauge the model's effectiveness.
 
