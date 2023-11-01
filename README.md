@@ -86,55 +86,5 @@ In this chapter, we will focus on preparing the dataset for analysis and modelin
 
 3.1 Identifying and Handling Duplicates
 
-In this initial step, we will identify and remove any duplicate entries in the dataset. Duplicates can skew our analysis and modeling results, so it's essential to ensure data integrity.
-
-3.2 Handling Missing Values
-
-After exploring the dataset, we have discovered missing values in several columns, including 'Waterfront,' 'yr_renovated,' and 'views.' These missing values need to be addressed to maintain the dataset's integrity. Our approach will include:
-
-3.2.1 Waterfront Column
-
-For the 'Waterfront' column, we will handle missing values by replacing them with the mode (the most frequent value). This is a common approach for categorical data where the majority class provides the best approximation for the missing data.
-
-3.2.2 Year Renovated Column
-
-In the 'yr_renovated' column, we will perform feature engineering to classify houses as either renovated or not renovated. This transformation will help us retain the valuable information about renovations without relying on incomplete data.
-
-3.2.3 Views Column
-
-For the 'views' column, we will determine the best approach to handle the missing values, considering the nature of the data and its impact on our model.
-
-These feature engineering and selection steps are essential to ensure that our model is built on the most relevant and informative data, allowing it to make accurate predictions. By systematically addressing duplicates, missing values, and selecting the most relevant features,, our dataset will be primed for effective exploratory data analysis (EDA) and modeling in the subsequent chapters.
-
-
-Chapter 4: EDA & Feature Engineering 
-
-4.1 EDA
-
-4.1.1 Univariate
-
-4.1.2 Bivariate
-
-4.1.3 Multivariate
-
-
-4.2 Feature Engineering
-
-In this step, we will not only identify and remove irrelevant columns but also create new features that enhance the predictive power of our model. Our approach will include:
-
-3.3.1 Handling 'yr_renovated' and Creating a ‘renovated’ column
-
-For the 'yr_renovated' column, we will engineer a new feature (renovated) that classifies houses as either "renovated" or "not renovated." This transformation will allow us to capture the impact of renovations on house prices, even when the exact renovation year is missing.
-
-3.3.2 Calculating House Age and Dropping the 'date' Column
-
-To gain insights into the age of the houses, we will utilize the 'date' column, which contains information about when the house was built. We will calculate the age of each house by subtracting the construction year from the current date. After calculating the age, we will drop the 'date' column from the dataset to streamline it and remove redundant information.
-
-Chapter 4: Data Analysis and Modelling
-
-Chapter 5: Conclusion
-
-Chapter 6: Limitation Next Steps
-
-Appendix
+In this initial step, we will identify and remove any duplicate entrie
 
